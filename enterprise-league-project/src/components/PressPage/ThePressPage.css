@@ -1,0 +1,20 @@
+.press-page-items__main {
+    width: 100%;
+    padding: 5% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    flex-direction: column;
+}
+@media (max-width: 85em) {
+    .press-page-items__main {
+        padding: 5% 15%;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .press-page-items__main {
+        padding: 5% 25px;
+    }
+}

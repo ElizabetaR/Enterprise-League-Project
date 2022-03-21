@@ -1,0 +1,127 @@
+.media-contact-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 40px 130px;
+    background: white;
+}
+
+@media (max-width: 85em) {
+    .media-contact-banner {
+        padding: 40px 50px;
+        gap: 80px;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .media-contact-banner {
+        flex-direction: column;
+        padding: 32px 0;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .media-contact-banner {
+        padding: 32px 5%;
+    }
+}
+
+.media-banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 42px;
+}
+
+@media (max-width: 85em) {
+    .media-banner {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .media-banner {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 23.5em) {
+    .media-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+}
+
+.media-banner-img {
+    width: 127px;
+    height: 155px;
+}
+
+@media (max-width: 37.5em) {
+    .media-banner-img {
+        width: 100px;
+        height: 125px;
+    }
+}
+
+.media-text-banner {
+    max-width: 250px;
+}
+
+.contact-banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 42px;
+}
+
+@media (max-width: 37.5em) {
+    .contact-banner {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 23.5em) {
+    .contact-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.h3-text {
+    text-align: left;
+    color: #384f5c;
+    padding: 0px 0px 15px;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 37.5em) {
+    .h3-text {
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+}
+
+.text-body {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.7;
+}
+
+@media (max-width: 37.5em) {
+    .text-body {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+}

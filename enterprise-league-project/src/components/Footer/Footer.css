@@ -1,0 +1,132 @@
+.footer {
+    padding: 6rem 7rem 3rem;
+    background-color: #f2f2f2;
+    color: #777;
+    font: 12px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 40px;
+}
+
+.footer-container-left {
+    flex: 0 0 32%;
+}
+
+.logo {
+    background-image: url(../../../public/assets/FooterLogo/Monochrome\ blue\ full\ logo.png);
+    width: 27em;
+    height: 10em;
+    background-size: 26em 6.5em;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.footer-container-left > p {
+    font-size: 14px;
+    padding: 28px 0px;
+}
+
+.world-logo {
+    background-image: url(../../../public/assets/FooterLogo/world_image.png);
+    width: 6em;
+    height: 4em;
+    background-size: 6em 4em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-container-right {
+    display: flex;
+    color: #414141;
+    flex: 0 0 42%;
+}
+
+.footer-container-right__block {
+    padding: 0 40px;
+}
+
+.footer-container-right__block > span {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2189d1;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer-container-right__block > ul {
+    list-style: none;
+    font-weight: 400;
+}
+
+.footer-nav {
+    padding: 0;
+}
+.footer-nav__item {
+    padding: 16px 0px 0px;
+    font-size: 15px;
+}
+
+.footer-nav__item > p {
+    cursor: pointer;
+    margin: 0;
+    text-decoration: none;
+}
+.footer-nav__item:hover,
+.p:hover {
+    color: rgba(165, 164, 164, 0.809);
+}
+.footer-copyright {
+    border-top: 2px solid #70707070;
+    padding-top: 38px;
+}
+
+.footer-copyright > p {
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (max-width: 56.25em) {
+    .footer-container {
+        padding: 8rem 7rem 5rem;
+        display: block;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .footer-container-left {
+        text-align: center;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .footer-container-left > p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .footer-container-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 45em) {
+    .footer-container-right {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 45em) {
+    .footer-container-right__block {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,34 @@
+.home {
+    background-image: url(../../../public/assets/background.svg);
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    margin: 5rem 0 0;
+}
+
+#img {
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+@media (max-width: 85em) {
+    .news-page-items__main {
+        padding: 5% 4%;
+        column-gap: 80px;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .news-page-items__main {
+        column-gap: 40px;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .news-page-items__main {
+        padding: 5% 12% 20% 12%;
+        row-gap: 16px;
+    }
+}

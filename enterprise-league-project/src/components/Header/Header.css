@@ -1,0 +1,111 @@
+.header {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 1% 8.5%;
+    border: unset;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.header_logo {
+    display: flex;
+    width: 120px;
+    height: 32px;
+}
+
+#logo-img {
+    cursor: pointer;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    .header_nav {
+        display: none;
+    }
+}
+.nav_menu {
+    display: flex;
+    flex: 1;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.nav_menu__item {
+    display: flex;
+    padding: 7px 6px;
+    margin: 0 10px;
+    cursor: default;
+}
+
+#span1 {
+    color: #777;
+    font-family: "MuseoSansLight", sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.nav_menu__item:hover,
+#span1:hover {
+    color: rgba(165, 164, 164, 0.809);
+}
+
+.header_nav .right_menu_buttons {
+    float: right;
+}
+
+.right_menu_buttons {
+    display: flex;
+}
+
+.button_a {
+    margin-right: 20px;
+    padding: 7px 6px;
+    background: transparent;
+    border: none !important;
+    font-size: 16px;
+    text-decoration: none;
+    color: #777;
+    cursor: pointer;
+}
+.button_a:hover {
+    color: #6ebaf0e0;
+}
+
+.button_b {
+    border-radius: 5px;
+    background-color: #2189d1;
+    padding: 8px 20px 10px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.button_b:hover {
+    background-color: #3a9fe8e0;
+}
+
+@media only screen and (min-width: 900px) {
+    .header-mobile-size > img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .header-mobile-size > img {
+        display: flex;
+    }
+}
